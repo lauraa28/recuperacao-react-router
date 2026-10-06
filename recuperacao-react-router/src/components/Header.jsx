@@ -5,13 +5,14 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">ARQ&CO</Link>
+        <h2>DIGITAL PROJECT</h2>
       </div>
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/projetos">Projetos</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/contato">Contato</Link>
+      <nav className="nav-links">
+        <Link to="/">MAIN</Link>
+        <Link to="/gallery">GALLERY</Link>
+        <Link to="/projects">PROJECTS</Link>
+        <Link to="/certifications">CERTIFICATIONS</Link>
+        <Link to="/contacts">CONTACTS</Link>
       </nav>
     </header>
   );

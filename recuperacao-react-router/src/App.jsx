@@ -19,7 +19,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/projetos" element={<Projetos />} />
-          <Route path="/projetos/:id" element={<DetalheProjeto />} />
+          <Route path="/projetos" element={<DetalheProjeto />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>
